@@ -1,0 +1,48 @@
+.baseDigital {
+  padding: 24px 0;
+
+  &__content {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+  }
+
+  &__card {
+    width: 30%;
+
+    .card {
+      &__title {
+        width: 140px;
+        font-size: 20px;
+      }
+
+      &__buttons {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+
+      &__button {
+        height: 45px;
+      }
+    }
+  }
+
+  &__slider {
+    width: 70%;
+    padding: 0;
+
+    .slider {
+      .slick-dots {
+        bottom: 15px;
+
+        .slick-active > button {
+          &::before {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

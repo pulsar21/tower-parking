@@ -1,0 +1,41 @@
+@import "../../styles/variables";
+
+.btn {
+  color: $white;
+  font-size: 14px;
+  font-family: 'Montserrat',Arial,sans-serif;
+  line-height: 1.55;
+  font-weight: 600;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: $black;
+  background-position: center center;
+  border-color: $black;
+  border-style: solid;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &--danger {
+    background-color: $blue;
+    border-color: $blue;
+
+    &:hover {
+      background-color: $white;
+      color: $blue;
+    }
+  }
+
+  &--outlineDanger {
+    background-color: $white;
+    border-color: $blue;
+    color: $blue;
+
+    &:hover {
+      background-color: $blue;
+      color: $white;
+    }
+  }
+}

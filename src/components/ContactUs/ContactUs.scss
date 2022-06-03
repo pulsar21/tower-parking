@@ -1,0 +1,53 @@
+@import "../../styles/variables";
+
+.contactUs {
+  padding: 50px 0;
+  background-color: $black_bg;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  &__img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  &__info {
+    .info {
+      &__title {
+        color: $white;
+        font-size: 30px;
+      }
+
+      &__desc {
+        margin-top: 16px;
+        color: $white;
+      }
+
+      &__mailing {
+        margin-top: 8px;
+      }
+
+      &__field {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+      }
+
+      &__btn {
+        max-width: 160px;
+        width: 100%;
+        height: 45px;
+      }
+
+      &__input {
+        height: 45px;
+      }
+    }
+  }
+}

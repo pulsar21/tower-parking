@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+
+.tag {
+  width: 100%;
+  height: 23px;
+  border: 1px solid $blue;
+  border-radius: 40px;
+  padding: 6px 18px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  &__text {
+    line-height: 15px;
+    color: $blue;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,26 @@
+.footer {
+  padding: 36px 0;
+
+  &__links {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  &__link {
+    .link {
+      &__childrenLinks {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+  }
+
+  &__developed {
+    & > span {
+      font-weight: 700;
+    }
+  }
+}

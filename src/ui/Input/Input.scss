@@ -1,0 +1,24 @@
+@import "../../styles/variables";
+
+.input {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 1.33;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+  -webkit-appearance: none;
+  color: $black_bg;
+  background-color: $white_bg;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  font-weight: 400;
+  border: none;
+
+  &::placeholder {
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-size: 16px;
+  }
+}

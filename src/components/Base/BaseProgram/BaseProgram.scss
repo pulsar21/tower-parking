@@ -1,0 +1,28 @@
+@import "../../../styles/variables";
+
+.baseProgram {
+  padding: 24px 0;
+  background-color: $white;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__cards {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  &__card {
+    max-width: 480px;
+    width: 100%;
+    height: 221px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+}

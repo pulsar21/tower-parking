@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+
+.card {
+  width: 100%;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: $white;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  box-shadow: 1px 1px 5px 0 rgb(0 0 0 / 10%);
+}

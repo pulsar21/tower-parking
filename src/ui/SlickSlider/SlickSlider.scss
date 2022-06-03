@@ -1,0 +1,9 @@
+.slider {
+  height: 539px;
+
+  &__item {
+    height: 539px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
