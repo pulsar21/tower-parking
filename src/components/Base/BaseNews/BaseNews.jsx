@@ -1,16 +1,7 @@
 import "./BaseNews.scss";
-import {Card, Container, GoLink, List, Tag} from "../../../ui";
-import {Link} from "react-router-dom";
+import {Card, Container, GoLink, List} from "../../../ui";
 
 export default function BaseNews() {
-    const tags = [
-        {id: 1, text: "Все"},
-        {id: 2, text: "Мероприятие"},
-        {id: 3, text: "Абитуриентам"},
-        {id: 4, text: "Выпускники"},
-        {id: 5, text: "Наука"}
-    ];
-
     const cards = [
         {id: 1, src: "/assets/img/news/news_1.jpg", title: "Stack Park", date: "26.05.2022"},
         {id: 2, src: "/assets/img/news/news_2.jpg", title: "Hydraulic Puzzle Park", date: "26.05.2022"},
@@ -28,18 +19,6 @@ export default function BaseNews() {
                         text={"More about products"}
                     />
                 </div>
-                {/*<List*/}
-                {/*    className={"baseNews__tags"}*/}
-                {/*    items={tags}*/}
-                {/*    renderItem={({id, text}) => (*/}
-                {/*        <li key={id}>*/}
-                {/*            <Tag*/}
-                {/*                className={"baseNews__tag"}*/}
-                {/*                text={text}*/}
-                {/*            />*/}
-                {/*        </li>*/}
-                {/*    )}*/}
-                {/*/>*/}
                 <List
                     className={"baseNews__cards"}
                     items={cards}
